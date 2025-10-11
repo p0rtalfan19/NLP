@@ -1,0 +1,29 @@
+{
+  "replace_numbers": true,
+  "replace_urls": true,
+  "replace_emails": true,
+  "replace_phones": true,
+  "replace_dates": true,
+  "replace_times": true,
+  "replace_currencies": true,
+  "normalize_punctuation": true,
+  "normalize_quotes": true,
+  "normalize_dashes": true,
+  "normalize_spaces": true,
+  "expand_abbreviations": true,
+  "expand_contractions": true,
+  "to_lowercase": false,
+  "remove_extra_punctuation": true,
+  "preserve_sentence_structure": true,
+  "language": "russian",
+  "tokens": {
+    "NUM": "<NUM>",
+    "URL": "<URL>",
+    "EMAIL": "<EMAIL>",
+    "PHONE": "<PHONE>",
+    "DATE": "<DATE>",
+    "TIME": "<TIME>",
+    "CURRENCY": "<CURRENCY>",
+    "UNK": "<UNK>"
+  }
+}
